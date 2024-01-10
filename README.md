@@ -5,7 +5,7 @@
 ---
 
 ## Особенности проекта
-* Запуск UI автотестов в Selenoid
+* Запуск mobile автотестов в BrowserStack
 * Автоматизация отчетности о тестовых прогонах и тест-кейсах в Jira
 * Интеграция с Allure TestOps
 * Отчеты Allure Report
@@ -14,13 +14,10 @@
 * Оповещения о тестовых прогонах в Telegram
 ---
 ## Список проверок, реализованных в проекте
-* Авторизация
-* Добавление товара в корзину
-* Удаление товара из корзины
-* Параметризованный  поиск товара
-* Сортировка товара по фильтру
-* Добавление товара в список желаний
-* Проверка ошибки при добавление тоавара не авторизованны пользователем
+* Проверка экрана приветствия
+* Поиск статей
+* Проверка сохранения истории поиска
+* Проверка добавления статей в избранное
 
  ---
 ## Запуск проекта
@@ -30,12 +27,12 @@
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pytest -s -v --browser_version=${BROWSER_VERSION}  --base_url=${BASE_URL} --browserName=${BROWSER_NAME}
+pytest -s -v --context=${CONTEXT}
 ```
 Или в Jenkins
 ### Запуск проекта в Jenkins
 
-1) Открыть [проект](https://jenkins.autotests.cloud/job/luma_UI_test_framework/)
+1) Открыть [проект](https://jenkins.autotests.cloud/job/wiki_mobile_test_framework/)
 2) Нажать "Build with Parameters"
 3) Заполнить параметры 
 4) Нажать "Build"
@@ -45,13 +42,14 @@ pytest -s -v --browser_version=${BROWSER_VERSION}  --base_url=${BASE_URL} --brow
 
 ## Allure report
 ### После прохождения тестов результаты можно посмотреть в Allure отчете
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/ALLURE%20REPORT.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/allure_mob.png" />
 
-### В отчете для каждого теста указана мета информация, а также приложены результаты прохождения: видео, html страницы, скриншот после прохождения, логи браузера.
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/allure_Behaviors.png" />
+### В отчете для каждого теста указана мета информация, а также приложены результаты прохождения: видео, html страницы, скриншот после прохождения.
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/allure_video_mob.png" />
 
-### Пример прохождения UI-теста
-https://github.com/Lexzender/luma_UI_test_framework/assets/106764385/89c32aa1-7984-41a8-954f-352cd72c3bc9
+### Пример прохождения mobile-теста
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/test_dave_article.gif" />
+
 
 ---
 ## Нотификация в Telegram

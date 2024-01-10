@@ -54,22 +54,19 @@ pytest -s -v --context=${CONTEXT}
 ---
 ## Нотификация в Telegram
 После прохождения тестов результаты будут отправлены в Telegram
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/Telegram_mF4OU8TK9I.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/Telegram_HlyAwmC8KZ.png" />
 
 ---
 ## Интеграция с Allure TestOps
 ### Тест кейсы
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/test%20cases.png" />
-
-### Дашборд
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/dashboards.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/testops_tk.png" />
 
 ### История запусков
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/Launches.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/testops_mob_launches.png" />
 
 ### Тестовые артефакты
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/test_results.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/testops_mob.png" />
 
 ---
 ## Интеграция с Jira
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/Jira.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/jira_mob.png" />

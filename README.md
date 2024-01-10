@@ -36,7 +36,7 @@ pytest -s -v --context=${CONTEXT}
 2) Нажать "Build with Parameters"
 3) Заполнить параметры 
 4) Нажать "Build"
-<img align="center" src="https://github.com/Lexzender/luma_UI_test_framework/blob/main/luma_UI_test_framework/pictures/jenkins.png" />
+<img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/jenkins_mob.png" />
 
 ---
 

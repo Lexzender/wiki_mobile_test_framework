@@ -1,4 +1,4 @@
-# Фреймворк для автоматизации тестирования мобильного приложения ["Wikipedia"]([https://magento.softwaretestingboard.com/](https://www.wikipedia.org/)) 
+# Фреймворк для автоматизации тестирования мобильного приложения ["Wikipedia"](https://www.wikipedia.org/)
 
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/wiki.png" />
 

@@ -30,7 +30,8 @@ pip install -r requirements.txt
 pytest -s -v --context=${CONTEXT}
 ```
 Или в Jenkins
-### Запуск проекта в Jenkins
+
+### <code><img width="3%" title="Jenkins" src="https://github.com/Lexzender/Lexzender/blob/main/images/jenkins-original.svg"></code> Запуск проекта в Jenkins
 
 1) Открыть [проект](https://jenkins.autotests.cloud/job/wiki_mobile_test_framework/)
 2) Нажать "Build with Parameters"
@@ -40,7 +41,7 @@ pytest -s -v --context=${CONTEXT}
 
 ---
 
-## Allure report
+## <code><img width="3%" title="Allure_Report" src="https://github.com/Lexzender/Lexzender/blob/main/images/Allure_Report.png"></code> Allure report
 ### После прохождения тестов результаты можно посмотреть в Allure отчете
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/allure_mob.png" />
 
@@ -52,12 +53,12 @@ pytest -s -v --context=${CONTEXT}
 
 
 ---
-## Нотификация в Telegram
+## <code><img width="3%" title="Telegram" src="https://github.com/Lexzender/Lexzender/blob/main/images/tg.png"></code> Нотификация в Telegram
 После прохождения тестов результаты будут отправлены в Telegram
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/Telegram_HlyAwmC8KZ.png" />
 
 ---
-## Интеграция с Allure TestOps
+## <code><img width="3%" title="AllureTestOps.png" src="https://github.com/Lexzender/Lexzender/blob/main/images/AllureTestOps.png"></code> Интеграция с Allure TestOps
 ### Тест кейсы
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/testops_tk.png" />
 
@@ -68,5 +69,5 @@ pytest -s -v --context=${CONTEXT}
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/testops_mob.png" />
 
 ---
-## Интеграция с Jira
+## <code><img width="3%" title="Jira.png" src="https://github.com/Lexzender/Lexzender/blob/main/images/jira-original.svg"></code> Интеграция с Jira
 <img align="center" src="https://github.com/Lexzender/wiki_mobile_test_framework/blob/main/utils/pictures/jira_mob.png" />
